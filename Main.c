@@ -409,6 +409,11 @@ main:
                 // }
 
                 root1 = reservationInfo(root, custID);
+                if(root1==NULL)
+                redColor();
+                printf("\n   ENTER CORRECT CUSTOMER ID\n");
+                resetColor();
+                goto
             }
             else
             {
